@@ -1,17 +1,18 @@
 <html>
+<head>
+    <title>Andrew's Project 2</title>
+    <style>
+        .output {color: hotpink;}
+    </style>
+    <script>
+        function hello() {
+            document.getElementById("test_output").innerHTML = "HELLO"
+        }
+    </script>
 <body>
-<style>
-    .test_class {font-family: Arial;}
-                {font-size: 25px;}
-    .button {font-size: 25px;}
-
-</style>
-<button onclick="myFunction()">Click me</button> 
-<p id="hi" class="test_class"></p>    
-<script>
-function myFunction() {
-  document.getElementById("hi").innerHTML = "Hello";
-}
-</script>
+    <h3>V.00</h3>
+        <button type="button" onclick="hello()">Click Here</button>
+        <p id="test_output" class="output"></p>
 </body>
+</head>
 </html>
